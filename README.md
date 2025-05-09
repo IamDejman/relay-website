@@ -1,36 +1,93 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Relay Website
+
+A modern, responsive single-page website for Relay, a service that enables fast bank transfers and QR payments.
+
+## Tech Stack
+
+- Next.js 14
+- Tailwind CSS
+- Framer Motion
+- Headless UI
+- Heroicons
+
+## Features
+
+- Responsive design
+- Smooth scrolling navigation
+- Animated sections
+- Interactive FAQ accordion
+- Modern UI with Tailwind CSS
+- Optimized for performance
+- SEO friendly
 
 ## Getting Started
 
-First, run the development server:
-
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/your-username/relay-website.git
+cd relay-website
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Run the development server:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Learn More
+## Building for Production
 
-To learn more about Next.js, take a look at the following resources:
+1. Build the project:
+```bash
+npm run build
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. Start the production server:
+```bash
+npm start
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Deployment
 
-## Deploy on Vercel
+The website is configured for easy deployment to Vercel:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Push your code to GitHub
+2. Import your repository in Vercel
+3. Deploy
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Customization
+
+### Colors
+
+The primary color (#000e28) can be modified in:
+- `tailwind.config.js`
+- `src/app/globals.css`
+
+### Content
+
+Update the content in:
+- `src/app/page.tsx` - Main content
+- `public/relay-logo.svg` - Logo
+- `public/relay-logo-white.svg` - White version of the logo
+
+### Styling
+
+Custom styles can be added in:
+- `src/app/globals.css`
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch
+3. Commit your changes
+4. Push to the branch
+5. Create a new Pull Request
+
+## License
+
+This project is licensed under the MIT License.
